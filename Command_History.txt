@@ -1,0 +1,19 @@
+2025/12/18
+
+cd /mnt/c/Users/come/dev/LINE_menu/nissy
+git clone git@github.com:come-plus/line_official_account_nissy.git
+cd line_official_account_nissy
+
+code README.md
+
+git status
+git add README.md
+git commit -m 'Initial commit'
+
+git push origin main
+
+git status
+git add Command_History.txt
+git commit -m 'コマンド履歴 追加'
+
+git push origin main
