@@ -17,3 +17,7 @@ git add Command_History.txt
 git commit -m 'コマンド履歴 追加'
 
 git push origin main
+
+
+2025/07/09
+cd /mnt/c/Users/come/dev/LINE_menu/nissy/line_official_account_nissy

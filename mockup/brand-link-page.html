@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>取り扱いブランド</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    background: #faf7f2;
+    color: #3a2f28;
+    padding: 24px 16px 60px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #8a7c6f;
+    margin-bottom: 28px;
+  }
+  .brand-list {
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .brand-card {
+    display: block;
+    background: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 14px;
+    padding: 22px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(58, 47, 40, 0.06);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .brand-card:active {
+    transform: scale(0.98);
+    box-shadow: 0 1px 4px rgba(58, 47, 40, 0.08);
+  }
+  .brand-logo {
+    max-width: 200px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .brand-name {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .brand-desc {
+    font-size: 12px;
+    color: #a0937f;
+    margin-top: 6px;
+  }
+  .arrow {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #c9a978;
+  }
+  .notice {
+    max-width: 420px;
+    margin: 28px auto 0;
+    background: #fff8ec;
+    border: 1px solid #eddfc2;
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 12px;
+    color: #8a6d3b;
+    text-align: center;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+  <h1>取り扱いブランド</h1>
+  <p class="subtitle">お取り寄せ商品のご案内</p>
+
+  <div class="brand-list">
+    <a class="brand-card" href="https://share.google/5jmY7QdJCEWJ6YfnH" target="_blank" rel="noopener">
+      <img class="brand-logo" src="images/alpsion_2.jpg" alt="ALPSION">
+      <div class="brand-name">アルピション</div>
+      <div class="brand-desc">アルピションはサロン専売商品です</br>
+ネット通販などで流通しているものの中には、中身が薄められたもの、長期間放置されて劣化したもの、ロット番号が削られた非正規品などが紛れ込んでいるリスクがあります。</br>
+      必ず正規店でのご購入をお願い致します。</div>
+      <span class="arrow">商品を見る →</span>
+    </a>
+
+    <a class="brand-card" href="https://share.google/82wGEqRNgN2uBDfh1" target="_blank" rel="noopener">
+      <img class="brand-logo" src="images/davines_00_logo.png" alt="davines">
+      <div class="brand-name">ダヴィネス</div>
+      <div class="brand-desc">ダヴィネスの商品は美容室専売商品とショップ専売商品があり、お取り寄せできないものもあります</br>
+詳しくはNissyまで直接お問い合わせ下さい</div>
+      <span class="arrow">商品を見る →</span>
+    </a>
+
+    <a class="brand-card" href="https://m-moulin.jp/customer/products/" target="_blank" rel="noopener">
+      <img class="brand-logo" src="images/m-moulin_logo.png" alt="MOULIN ET MOULIN">
+      <div class="brand-name">ムーランエムーラン</div>
+      <div class="brand-desc">カラー×ホームケア</div>
+      <span class="arrow">商品を見る →</span>
+    </a>
+  </div>
+
+  <div class="notice">
+    ※外部サイトへアクセスします<br>
+    正規品のお取り扱いについてはNissyまで直接お問い合わせください
+  </div>
+
+</body>
+</html>
