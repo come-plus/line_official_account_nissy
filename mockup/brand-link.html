@@ -23,7 +23,17 @@
     text-align: center;
     font-size: 13px;
     color: #8a7c6f;
-    margin-bottom: 28px;
+    margin-bottom: 12px;
+    line-height: 1.7;
+  }
+  .lead-text {
+    max-width: 420px;
+    margin: 0 auto 28px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5c4a38;
+    line-height: 1.8;
   }
   .brand-list {
     max-width: 420px;
@@ -48,6 +58,21 @@
     transform: scale(0.98);
     box-shadow: 0 1px 4px rgba(58, 47, 40, 0.08);
   }
+  .brand-card-wrap {
+    background: #fff;
+    border: 1px solid #e8e0d5;
+    border-radius: 14px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(58, 47, 40, 0.06);
+  }
+  .brand-card-wrap a.brand-card {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
   .brand-logo {
     max-width: 200px;
     max-height: 60px;
@@ -64,12 +89,20 @@
     font-size: 12px;
     color: #a0937f;
     margin-top: 6px;
+    line-height: 1.6;
   }
   .arrow {
     display: block;
     margin-top: 10px;
     font-size: 12px;
     color: #c9a978;
+  }
+  .davines-note {
+    display: block;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #b08a5c;
+    text-decoration: underline;
   }
   .notice {
     max-width: 420px;
@@ -89,27 +122,35 @@
 
   <h1>取り扱いブランド</h1>
   <p class="subtitle">お取り寄せ商品のご案内</p>
+  <p class="lead-text">
+    Nissyが取り扱っている商品です。<br>
+    ご興味のある方はNissyまでお問い合わせください。
+  </p>
 
   <div class="brand-list">
-    <a class="brand-card" href="https://share.google/5jmY7QdJCEWJ6YfnH" target="_blank" rel="noopener">
-      <img class="brand-logo" src="images/alpsion_2.jpg" alt="ALPSION">
+    <a class="brand-card" href="https://alpsion.com/" target="_blank" rel="noopener">
+      <img class="brand-logo" src="./images/alpsion_logo.jpg" alt="ALPSION">
       <div class="brand-name">アルピション</div>
-      <div class="brand-desc">アルピションはサロン専売商品です</br>
-ネット通販などで流通しているものの中には、中身が薄められたもの、長期間放置されて劣化したもの、ロット番号が削られた非正規品などが紛れ込んでいるリスクがあります。</br>
-      必ず正規店でのご購入をお願い致します。</div>
+      <div class="brand-desc">
+        アルピションはサロン専売商品です<br>
+        ネット通販などで流通しているものの中には、中身が薄められたもの、長期間放置されて劣化したもの、ロット番号が削られた非正規品などが紛れ込んでいるリスクがあります。<br>
+        必ず正規店でのご購入をお願い致します。
+      </div>
       <span class="arrow">商品を見る →</span>
     </a>
 
-    <a class="brand-card" href="https://share.google/82wGEqRNgN2uBDfh1" target="_blank" rel="noopener">
-      <img class="brand-logo" src="images/davines_00_logo.png" alt="davines">
-      <div class="brand-name">ダヴィネス</div>
-      <div class="brand-desc">ダヴィネスの商品は美容室専売商品とショップ専売商品があり、お取り寄せできないものもあります</br>
-詳しくはNissyまで直接お問い合わせ下さい</div>
-      <span class="arrow">商品を見る →</span>
-    </a>
+    <div class="brand-card-wrap">
+      <a class="brand-card" href="https://davines.co.jp/" target="_blank" rel="noopener">
+        <img class="brand-logo" src="./images/davines_logo.png" alt="davines">
+        <div class="brand-name">ダヴィネス</div>
+        <div class="brand-desc">ダヴィネスの商品は美容室専売商品とショップ専売商品があり、お取り寄せできないものもあります</div>
+        <span class="arrow">商品を見る →</span>
+      </a>
+      <a class="davines-note" href="./davines-guide.html" target="" rel="noopener">ダヴィネスご購入時のご協力のお願い</a>
+    </div>
 
-    <a class="brand-card" href="https://m-moulin.jp/customer/products/" target="_blank" rel="noopener">
-      <img class="brand-logo" src="images/m-moulin_logo.png" alt="MOULIN ET MOULIN">
+    <a class="brand-card" href="https://m-moulin.jp/" target="_blank" rel="noopener">
+      <img class="brand-logo" src="./images/m-moulin_logo.png" alt="MOULIN ET MOULIN">
       <div class="brand-name">ムーランエムーラン</div>
       <div class="brand-desc">カラー×ホームケア</div>
       <span class="arrow">商品を見る →</span>

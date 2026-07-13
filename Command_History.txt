@@ -21,3 +21,19 @@ git push origin main
 
 2025/07/09
 cd /mnt/c/Users/come/dev/LINE_menu/nissy/line_official_account_nissy
+
+git add .
+git commit -m "モックアップページ 追加"
+git push origin main
+
+
+2025/07/14
+
+git status
+git add .
+git commit -m "打ち合わせ要望反映、ダヴィネス購入時協力願いページ追加"
+git push origin main
+
+
+
+
