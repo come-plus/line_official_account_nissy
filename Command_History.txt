@@ -34,6 +34,12 @@ git add .
 git commit -m "打ち合わせ要望反映、ダヴィネス購入時協力願いページ追加"
 git push origin main
 
+git status
+git diff mockup/brand-link.html
+git add .
+git commit -m "取り扱いブランドページ トップ文言変更、リンクボタン表示を目立つように修正"
+git push origin main
+
 
 
 
